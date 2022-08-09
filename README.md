@@ -48,6 +48,6 @@ invested in a loan and number of investors that are not friends.
 
 Afterwards, I examined the relationship that exist between home-owner 
 status and loan amount with the respective monthly repayment amount.
-I used a scatterplot to examine this relationship. I've madesure to 
+I used a scatterplot to examine this relationship. I've made sure to 
 use different color palettes for each quality variable to make sure 
 it is clear that they're different between plots.

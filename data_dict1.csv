@@ -1,0 +1,34 @@
+,Variable,Description
+0,ListingCreationDate,The date the listing was created.
+1,Term,The length of the loan expressed in months.
+2,LoanStatus,"The current status of the loan: Cancelled,  Chargedoff, Completed, Current, Defaulted, FinalPaymentInProgress, PastDue. The PastDue status will be accompanied by a delinquency bucket."
+3,ClosedDate,"Closed date is applicable for Cancelled, Completed, Chargedoff and Defaulted loan statuses. "
+4,BorrowerAPR,The Borrower's Annual Percentage Rate (APR) for the loan.
+5,ListingCategory,"The category of the listing that the borrower selected when posting their listing: 0 - Not Available, 1 - Debt Consolidation, 2 - Home Improvement, 3 - Business, 4 - Personal Loan, 5 - Student Use, 6 - Auto, 7- Other, 8 - Baby&Adoption, 9 - Boat, 10 - Cosmetic Procedure, 11 - Engagement Ring, 12 - Green Loans, 13 - Household Expenses, 14 - Large Purchases, 15 - Medical/Dental, 16 - Motorcycle, 17 - RV, 18 - Taxes, 19 - Vacation, 20 - Wedding Loans"
+6,BorrowerState,The two letter abbreviation of the state of the address of the borrower at the time the Listing was created.
+7,Occupation,The Occupation selected by the Borrower at the time they created the listing.
+8,EmploymentStatus,The employment status of the borrower at the time they posted the listing.
+9,EmploymentStatusDuration,The length in months of the employment status at the time the listing was created.
+10,IsBorrowerHomeowner,A Borrower will be classified as a homowner if they have a mortgage on their credit profile or provide documentation confirming they are a homeowner.
+11,CreditScoreRangeLower,The lower value representing the range of the borrower's credit score as provided by a consumer credit rating agency.
+12,CreditScoreRangeUpper,The upper value representing the range of the borrower's credit score as provided by a consumer credit rating agency. 
+13,OpenRevolvingAccounts,Number of open revolving accounts at the time the credit profile was pulled.
+14,OpenRevolvingMonthlyPayment,Monthly payment on revolving accounts at the time the credit profile was pulled.
+15,RevolvingCreditBalance,Dollars of revolving credit at the time the credit profile was pulled.
+16,DebtToIncomeRatio,The debt to income ratio of the borrower at the time the credit profile was pulled. This value is Null if the debt to income ratio is not available. This value is capped at 10.01 (any debt to income ratio larger than 1000% will be returned as 1001%).
+17,IncomeRange,The income range of the borrower at the time the listing was created.
+18,IncomeVerifiable,The borrower indicated they have the required documentation to support their income.
+19,StatedMonthlyIncome,The monthly income the borrower stated at the time the listing was created.
+20,LoanCurrentDaysDelinquent,The number of days delinquent. 
+21,LoanNumber,Unique numeric value associated with the loan.
+22,LoanOriginalAmount,The origination amount of the loan.
+23,LoanOriginationDate,The date the loan was originated.
+24,MonthlyLoanPayment,The scheduled monthly loan payment.
+25,LP_GrossPrincipalLoss,The gross charged off amount of the loan.
+26,LP_NetPrincipalLoss,The principal that remains uncollected after any recoveries.
+27,LP_NonPrincipalRecoverypayments,"The interest and fee component of any recovery payments. The current payment policy applies payments in the following order: Fees, interest, principal."
+28,PercentFunded,Percent the listing was funded.
+29,Recommendations,Number of recommendations the borrower had at the time the listing was created.
+30,InvestmentFromFriendsCount,Number of friends that made an investment in the loan.
+31,InvestmentFromFriendsAmount,Dollar amount of investments that were made by friends.
+32,Investors,The number of investors that funded the loan.
